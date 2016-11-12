@@ -1,0 +1,24 @@
+{
+  "name": "last-line",
+  "version": "0.0.1",
+  "description": "Get last line of string",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inndy/last-line.git"
+  },
+  "keywords": [
+    "last",
+    "lastline",
+    "string"
+  ],
+  "author": "Inndy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Inndy/last-line/issues"
+  },
+  "homepage": "https://github.com/Inndy/last-line#readme"
+}
