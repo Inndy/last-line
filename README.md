@@ -1,15 +1,15 @@
-# last-line
+# lastline
 
 Get last-line from a string
 
 ## Installation
 
-`npm install --save last-line`
+`npm install --save lastline`
 
 ## Usage
 
 ```javascript
-require('last-line')
+require('lastline')
 
 console.log("This\nis\nmultiple\nline\nstring".lastLine)
 ```

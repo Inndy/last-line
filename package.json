@@ -1,5 +1,5 @@
 {
-  "name": "last-line",
+  "name": "lastline",
   "version": "0.0.1",
   "description": "Get last line of string",
   "main": "index.js",
