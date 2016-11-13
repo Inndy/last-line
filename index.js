@@ -1,4 +1,9 @@
+const last_one_of = require('./libs/last_one_of')
+
+function lastLine(string) {
+	return last_one_of(string.split('\n'))
+}
+
 String.prototype.__defineGetter__('lastLine', function () {
-	var lines = this.split('\n')
-	return lines[lines.length - 1]
+	return lastLine(this)
 })
