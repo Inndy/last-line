@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Inndy/last-line/issues"
   },
-  "homepage": "https://github.com/Inndy/last-line#readme"
+  "homepage": "https://github.com/Inndy/last-line#readme",
+  "devDependencies": {
+    "nodeunit": "^0.10.2"
+  }
 }

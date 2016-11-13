@@ -1,13 +1,4 @@
-require('.')
+#!/usr/bin/env node
 
-const s = `This
-is
-a
-multi-line
-string!`
-
-if (s.lastLine === 'string!') {
-	console.log('Test passed! (1/1)')
-} else {
-	console.log('Test case #1 failed (0/1)')
-}
+var reporter = require('nodeunit').reporters.default;
+reporter.run(['tests']);
